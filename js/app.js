@@ -12,9 +12,6 @@ function changeCity(event){
 	// Take user input and turn all letters to lowercase then get rid of extra spaces or new lines
 	city = city.toLowerCase().trim();
 
-	// Array of image sources
-	var px = ['images/nyc.jpg', 'images/sf.jpg', 'images/la.jpg', 'images/austin.jpg', 'images/sydney.jpg'];
-
 	// List conditionals that will associate a specific user input to an image and change body background image to corresponding city
 	if (city == 'new york' || city == 'new york city' || city == 'nyc') {
 	jQuery('body').attr('class', 'nyc');
